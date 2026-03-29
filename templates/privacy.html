@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — Spendly{% endblock %}
+
+{% block content %}
+
+<section class="privacy-page">
+    <div class="privacy-container">
+        <h1 class="privacy-title">Privacy Policy</h1>
+        <p class="privacy-updated">Last updated: March 29, 2026</p>
+
+        <div class="privacy-card">
+            <section class="privacy-section">
+                <h2 class="privacy-section-title">Data We Collect</h2>
+                <p class="privacy-text">We collect information you provide directly to us, including your email address, password, and any financial data you choose to enter such as expense amounts, categories, descriptions, and dates. We also collect usage data about how you interact with our service.</p>
+            </section>
+
+            <section class="privacy-section">
+                <h2 class="privacy-section-title">How We Use Your Data</h2>
+                <p class="privacy-text">Your data is used solely to provide and improve our expense tracking services. We use your information to maintain your account, process your transactions, display your spending patterns, and communicate with you about service updates. We do not use your financial data for advertising or sell it to third parties.</p>
+            </section>
+
+            <section class="privacy-section">
+                <h2 class="privacy-section-title">Data Storage</h2>
+                <p class="privacy-text">All data you enter into Spendly is stored securely on our servers. We implement industry-standard security measures to protect your information from unauthorized access, alteration, or disclosure. Your data is backed up regularly to prevent loss.</p>
+            </section>
+
+            <section class="privacy-section">
+                <h2 class="privacy-section-title">Third Party Services</h2>
+                <p class="privacy-text">Spendly does not share your personal or financial information with third parties. We may use trusted service providers for hosting and technical infrastructure, but these providers are bound by confidentiality obligations and are not permitted to use your data for their own purposes.</p>
+            </section>
+
+            <section class="privacy-section">
+                <h2 class="privacy-section-title">Your Rights</h2>
+                <p class="privacy-text">You have the right to access, correct, or delete your personal data at any time. You can export all your expense data from your account settings. If you choose to delete your account, all your data will be permanently removed from our systems.</p>
+            </section>
+
+            <section class="privacy-section">
+                <h2 class="privacy-section-title">Contact Us</h2>
+                <p class="privacy-text">If you have any questions about this Privacy Policy or our data practices, please contact us through the application. We are committed to addressing your concerns and ensuring your data is handled responsibly.</p>
+            </section>
+        </div>
+
+        <div class="privacy-back">
+            <a href="{{ url_for('landing') }}" class="btn-ghost">← Back to Home</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
