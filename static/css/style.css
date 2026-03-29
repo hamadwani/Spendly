@@ -508,6 +508,73 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ------------------------------------------------------------------ */
+/* Terms & Privacy pages                                               */
+/* ------------------------------------------------------------------ */
+
+.terms-page, .privacy-page {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.terms-container, .privacy-container {
+    width: 100%;
+}
+
+.terms-title, .privacy-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    color: var(--ink);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.terms-updated, .privacy-updated {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+    margin-bottom: 2.5rem;
+}
+
+.terms-card, .privacy-card {
+    background: var(--paper-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.terms-section, .privacy-section {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-soft);
+}
+
+.terms-section:last-child, .privacy-section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.terms-section-title, .privacy-section-title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--ink);
+    margin-bottom: 0.75rem;
+}
+
+.terms-text, .privacy-text {
+    font-size: 0.95rem;
+    color: var(--ink-muted);
+    line-height: 1.7;
+}
+
+.terms-back, .privacy-back {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* ------------------------------------------------------------------ */
 /* Responsive                                                          */
 /* ------------------------------------------------------------------ */
 
